@@ -21,11 +21,6 @@ works:
     link_to: ../portfolio/phillip-lim.html
     class: pm
     desc: Project management
-  - image: ../images/work/tn-spp.png
-    title: Strawberry Patch Puzzles
-    link_to: ../portfolio/spp.html
-    class: dev
-    desc: Jekyll site development
   - image: ../images/work/tn-draperjames.jpg
     title: Draper James
     link_to: ../portfolio/draper-james.html
@@ -36,16 +31,16 @@ works:
     link_to: ../portfolio/dj-emails.html
     class: dev
     desc: Development for Newsletter Emails
-  - image: ../images/work/lad.jpg
-    title: life/after/denim
-    link_to: ../portfolio/lad-sign.html
-    class: other
-    desc: Custom signage
   - image: ../images/work/tn-shopbazaar.jpg
     title: ShopBAZAAR
     link_to: ../portfolio/shopbazaar.html
     class: pm
     desc: Project management
+  - image: ../images/work/lad.jpg
+    title: life/after/denim
+    link_to: ../portfolio/lad-sign.html
+    class: other
+    desc: Custom signage
   - image: ../images/work/yigal.jpg
     title: Yigal Azrouel
     link_to: ../portfolio/yigal-azrouel.html
@@ -61,21 +56,36 @@ works:
     link_to: ../portfolio/owls-brew.html
     class: pm
     desc: Project management
-  - image: ../images/work/tn-ladmag.jpg
-    title: life/after/denim
-    link_to: ../portfolio/lad-ad.html
-    class: design
-    desc: Full page ad to be printed in a magazine
   - image: ../images/work/tn-ondeck.jpg
     title: OnDeck
     link_to: ../portfolio/ondeck.html
     class: pm
     desc: Digital production
+  - image: ../images/work/tn-spp.png
+    title: Strawberry Patch Puzzles
+    link_to: ../portfolio/spp.html
+    class: dev
+    desc: Jekyll site development
+  - image: ../images/work/wuw.jpg
+    title: When You Wish 
+    link_to: ../portfolio/wuw-withdraw.html
+    class: ux-design
+    desc: Campaign creator's fund withdrawal
+  - image: ../images/work/tn-ladmag.jpg
+    title: life/after/denim
+    link_to: ../portfolio/lad-ad.html
+    class: design
+    desc: Full page ad to be printed in a magazine
   - image: ../images/work/yumlist-tn.jpg
     title: Yumlist
     link_to: ../portfolio/yumlist.html
-    class: dev
+    class: dev secondary
     desc: Meteor.js sample app
+  - image: ../images/work/wuw.jpg
+    title: When You Wish 
+    link_to: ../portfolio/wuw-login.html
+    class: ux-design secondary
+    desc: Sign in flow
   - image: ../images/work/tn-janegoodall.jpg
     title: Jane Goodall Chimp Call App
     link_to: ../portfolio/jane-goodall.html
@@ -96,11 +106,6 @@ works:
     link_to: ../portfolio/cashtag.html
     class: dev secondary
     desc: Development for landing pages
-  - image: ../images/work/wuw.jpg
-    title: When You Wish 
-    link_to: ../portfolio/wuw-payment.html
-    class: ux-design secondary
-    desc: Crowdfunding sponsor process
   - image: ../images/work/dell.jpg
     title: Dell Social Innovation Challenge
     link_to: ../portfolio/dsic.html
@@ -121,6 +126,11 @@ works:
     link_to: ../portfolio/story.html
     class: design secondary
     desc: Postcard flyer design
+  - image: ../images/work/wuw.jpg
+    title: When You Wish 
+    link_to: ../portfolio/wuw-payment.html
+    class: ux-design secondary
+    desc: Crowdfunding sponsor process
   - image: ../images/work/dse.jpg
     title: Digital Signage Expo 2014
     link_to: ../portfolio/dse.html

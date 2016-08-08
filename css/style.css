@@ -27,6 +27,9 @@ a {
 a:hover {
   color: #999;
 }
+a:focus {
+  color: black;
+}
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
@@ -213,7 +216,8 @@ ul.shortcode-list i {
 }
 
 .button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -226,6 +230,11 @@ ul.shortcode-list i {
 .button.boxed:hover {
   color: #333;
   background: #fff;
+}
+
+.button:focus {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /*Top bar */
@@ -471,7 +480,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #BAEDA8;
+  background: #000000;
   color: #fff;
 }
 
@@ -800,9 +809,10 @@ body.screenshot {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #baeda8;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1130,9 +1140,10 @@ body.screenshot {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #baeda8;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1414,9 +1425,10 @@ body.screenshot {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #baeda8;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3105,9 +3117,10 @@ body {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1;
-  color: #000000;
+  color: #baeda8;
+  font-weight: bold;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
