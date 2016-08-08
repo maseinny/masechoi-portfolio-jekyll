@@ -39,18 +39,19 @@ jQuery(document).foundation();
 (function($) {
   "use strict";
   $(document).ready(function() {
-    var current = ("../portfolio/" + document.location.href.match(/[^\/]+$/)[0]);
-    var workArray = {{ site.works | jsonify }};
-    for (var i = 1; i < workArray.length - 1; i++) {
-      if(current == workArray[i].link_to) {
-        var previous  = workArray[i - 1].link_to;
-        var next  = workArray[i + 1].link_to;
-        
-      }
-    }
-    console.log(previous);
-    console.log(next);
+    if (window.location.pathname != '/') {
+      var current = ("../portfolio/" + document.location.href.match(/[^\/]+$/)[0]);
+      var workArray = {{ site.works | jsonify }};
+      for (var i = 1; i < workArray.length - 1; i++) {
+        if(current == workArray[i].link_to) {
+          var previous  = workArray[i - 1].link_to;
+          var next  = workArray[i + 1].link_to;
 
+        }
+      }
+      console.log(previous);
+      console.log(next);
+    }
     $('a[title="previous"]').click(function() {
       window.location.replace(previous);
     });
