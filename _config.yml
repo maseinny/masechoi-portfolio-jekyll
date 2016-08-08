@@ -128,7 +128,7 @@ works:
     desc: Postcard flyer design
   - image: ../images/work/wuw.jpg
     title: When You Wish 
-    link_to: ../portfolio/wuw-payment.html
+    link_to: ../portfolio/wuw-pay.html
     class: ux-design secondary
     desc: Crowdfunding sponsor process
   - image: ../images/work/dse.jpg
