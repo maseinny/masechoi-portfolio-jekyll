@@ -1,0 +1,60 @@
+---
+layout: default
+images:
+  - images/portfolio/cashtag_refer.png
+  - images/portfolio/cashtag_form.png
+  - images/portfolio/cashtag_cashback.png
+  - images/portfolio/cashtag_mobile.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Cashtag</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Cashtag (freelance)
+        </li>
+        <li>
+          <strong>Date:</strong>
+          April 2016
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Development for responsive Cashtag site based on Photoshop designs. Simple brochure website, that records user answers in a database, and calculates a cashback rate according to specific rules.
+      </p>
+      <!---<a class='button small' href='https://shop.harpersbazaar.com' target="_blank">Visit website</a>-->
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

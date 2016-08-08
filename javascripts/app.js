@@ -1,4 +1,5 @@
-
+---
+---
 jQuery.extend({
   randomColor: function() {
     return '#' + Math.floor(Math.random()*256*256*256).toString(16);
@@ -38,6 +39,29 @@ jQuery(document).foundation();
 (function($) {
   "use strict";
   $(document).ready(function() {
+    var current = ("../portfolio/" + document.location.href.match(/[^\/]+$/)[0]);
+    var workArray = {{ site.works | jsonify }};
+    for (var i = 1; i < workArray.length - 1; i++) {
+      if(current == workArray[i].link_to) {
+        var previous  = workArray[i - 1].link_to;
+        var next  = workArray[i + 1].link_to;
+        
+      }
+    }
+    console.log(previous);
+    console.log(next);
+
+    $('a[title="previous"]').click(function() {
+      window.location.replace(previous);
+    });
+
+    $('a[title="next"]').click(function() {
+      window.location.replace(next);
+    });
+
+    $('.more-works').click(function() {
+      $('.secondary').show();
+    });
 
     $('video').each(function() {
       this.muted = true;
@@ -283,20 +307,20 @@ jQuery(document).foundation();
         autoplaySpeed: 3000,
         pauseOnHover: false,
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 568,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
           }
+        },
+        {
+          breakpoint: 568,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
         ]
       });
 
@@ -336,20 +360,20 @@ jQuery(document).foundation();
         autoplaySpeed: 2000,
         pauseOnHover: false,
         responsive: [
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
           }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
         ]
       });
 

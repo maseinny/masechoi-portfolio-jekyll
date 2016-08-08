@@ -11,87 +11,6 @@ slides:
       - text: contact
         class: small boxed
         url: /#contact
-works:
-  - image: ../images/work/tn-philliplim.jpg
-    title: 3.1 Phillip Lim
-    link_to: ../portfolio/philliplim.html
-    class: pm
-    desc: Project management
-  - image: ../images/work/tn-spp.png
-    title: Strawberry Patch Puzzles
-    link_to: ../portfolio/spp.html
-    class: dev
-    desc: Jekyll site development
-  - image: ../images/work/tn-draperjames.jpg
-    title: Draper James
-    link_to: ../portfolio/draperjames.html
-    class: pm
-    desc: Project Management
-  - image: ../images/work/tn-djemail.jpg
-    title: Draper James
-    link_to: ../portfolio/portfolio-item.html
-    class: dev
-    desc: Development for Newsletter Emails
-  - image: ../images/work/lad.jpg
-    title: life/after/denim
-    link_to: ../portfolio/portfolio-item.html
-    class: other
-    desc: Custom signage
-  - image: ../images/work/tn-shopbazaar.jpg
-    title: ShopBAZAAR
-    link_to: ../portfolio/portfolio-item.html
-    class: pm
-    desc: Project management
-  - image: ../images/work/tn-cashtag.jpg
-    title: Cashtag
-    link_to: ../portfolio/portfolio-item.html
-    class: dev
-    desc: Development for landing pages
-  - image: ../images/work/tn-janegoodall.jpg
-    title: Jane Goodall Chimp Call App
-    link_to: ../portfolio/portfolio-item.html
-    class: design
-    desc: Mobile UI for Jane Goodall Foundation app
-  - image: ../images/work/tn-lulufrost.jpg
-    title: Lulu Frost
-    link_to: ../portfolio/portfolio-item.html
-    class: pm
-    desc: Project management
-  - image: ../images/work/tn-parallaxstory.png
-    title: Story Page
-    link_to: ../portfolio/portfolio-item.html
-    class: dev
-    desc: Development of an interactive story page
-  - image: ../images/work/tn-ladmag.jpg
-    title: life/after/denim
-    link_to: ../portfolio/portfolio-item.html
-    class: design
-    desc: Full page ad to be printed in a magazine
-  - image: ../images/work/tn-ondeck.jpg
-    title: OnDeck
-    link_to: ../portfolio/portfolio-item.html
-    class: pm
-    desc: Digital production
-  - image: ../images/work/tn-ondeck.jpg
-    title: Yumlist
-    link_to: ../portfolio/portfolio-item.html
-    class: dev
-    desc: Meteor.js sample app
-  - image: ../images/work/tn-friends.jpg
-    title: Friends at Hicksville
-    link_to: ../portfolio/portfolio-item.html
-    class: design
-    desc: Commemorating our time at Hicksville
-  - image: ../images/work/tn-owlsbrew.jpg
-    title: Owl's Brew
-    link_to: ../portfolio/portfolio-item.html
-    class: pm
-    desc: Project management
-  - image: ../images/work/tn-greenmarket.jpg
-    title: Grow NYC
-    link_to: ../portfolio/portfolio-item.html
-    class: other
-    desc: Greenmarket photographer
 
 testimonials:
   - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
@@ -282,7 +201,7 @@ socials:
           </ul>
         </div>
         <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-          {% for work in page.works %}
+          {% for work in site.works %}
             <li class='{{work.class}}'>
               <a href='{{work.link_to}}'>
                 <img width="600" height="500" alt="" src="{{work.image}}" />
@@ -303,7 +222,7 @@ socials:
   <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
-        <a class='button' href='#'>View more works</a>
+        <a class='button more-works'>View more works</a>
       </p>
     </div>
   </div>

@@ -1,0 +1,57 @@
+---
+layout: default
+images:
+  - images/portfolio/digitalsignageexponation.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Digital Signage Expo 2014</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Digital Signage Expo
+        </li>
+        <li>
+          <strong>Date:</strong>
+          December 2013
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Coded a one-pager for the Digital Signage Expo in 2014, with made from scratch jQuery image slider and lightboxes.
+      </p>
+      <a class='button small' href='http://www.digitalsignageexpo.net/2017/public/enter.aspx' target="_blank">Visit Website</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='../portfolio/solar-electric-scooter.html' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <!--<a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>-->
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

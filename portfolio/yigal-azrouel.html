@@ -1,0 +1,56 @@
+---
+layout: default
+images:
+  - images/portfolio/ya.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Yigal Azrouël eCommerce platform</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Yigal Azrouël
+        </li>
+        <!--<li>
+          <strong>Date:</strong>
+          September 2011
+        </li>-->
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Project manager responsible for the upkeep, maintenance and QA testing for Yigal Azrouël's eCommerce site. Handled third party integrations, site analytics, CMS assistance and coaching for the client, and occasional front-end development work. 
+      </p>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

@@ -1,0 +1,58 @@
+---
+layout: default
+images:
+  - images/portfolio/dell_sign-up-tooltip.jpg
+  - images/portfolio/dell_sign-in.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Dell Social Innovation Challenge login UI</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Dell
+        </li>
+        <li>
+          <strong>Date:</strong>
+          June 2012
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Designed UI for the 2012 Dell Social Innovation Challenge competetion that was hosted on crowdfunding site, When You Wish.
+      </p>
+      <!--<a class='button small' href='' target="_blank">Visit Website</a>-->
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

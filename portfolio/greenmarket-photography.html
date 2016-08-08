@@ -1,0 +1,69 @@
+---
+layout: default
+images:
+  - images/portfolio/greenmarket1.jpg
+  - images/portfolio/greenmarket2.jpg
+  - images/portfolio/greenmarket3.jpg
+  - images/portfolio/greenmarket4.jpg
+  - images/portfolio/greenmarket5.jpg
+  - images/portfolio/greenmarket6.jpg
+  - images/portfolio/translation.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Grow NYC Volunteer</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          GrowNYC
+        </li>
+        <!--<li>
+          <strong>Date:</strong>
+          September 2011
+        </li>-->
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Regular volunteer for Grow NYC, working most often at neighborhood Stop 'N' Swaps, doing photography at events, and occasionally some translation work. 
+      </p>
+      <p>
+        The photos here are from the Brooklyn Borough Hall Greenmarket on October 17th, 2015.
+      </p>
+      <p>
+        The flyer is an ad for a Stop 'N' Swap event that I helped to translate into Russian.
+      </p>
+      <a class='button small' href='http://www.grownyc.org/' target="_blank">Visit GrowNYC Website</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

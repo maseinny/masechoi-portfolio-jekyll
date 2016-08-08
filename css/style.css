@@ -742,6 +742,7 @@ body.screenshot {
 }
 .slick-slide img {
   display: block;
+  margin: 0 auto;
 }
 .slick-slide.slick-loading img {
   display: none;
@@ -2379,6 +2380,9 @@ body.screenshot {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
+.gallery .secondary {
+  display: none;
+}
 .modGallery .gallery-nav {
   margin: 0 auto 30px;
   text-align: center;
@@ -2516,7 +2520,6 @@ body.screenshot {
 body {
   overflow-y: scroll;
 }
-
 .modMasonryGallery .gallery-nav {
   margin: 0 auto 30px;
   text-align: center;

@@ -1,0 +1,57 @@
+---
+layout: default
+images:
+  - images/portfolio/dj.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Draper James eCommerce site</h3>
+     <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Draper James
+        </li>
+        <!--<li>
+          <strong>Date:</strong>
+          June 2013
+        </li>-->
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Project manager for the site design/development consultation and build of Reese Witherspoon's eCommerce website for Draper James. Responsibilities included managing development schedule, third party integrations, conducting Magento training for client, helping to come up with solutions for client's eCommerce needs, and maintaining/updating/user-testing the site as well as maintaining an ongoing relationship with the client. As a secondary benefit to the client, I would also code their email newsletters and occasionally do some front-end development for the website. 
+      </p>
+      <a class='button small' href='http://www.draperjames.com/' target="_blank">Visit website</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

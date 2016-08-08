@@ -1,0 +1,59 @@
+---
+layout: default
+images:
+  - images/portfolio/lf.png
+  - images/portfolio/lf_cat.png
+  - images/portfolio/lf_product.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Lulu Frost ecommerce platform</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Lulu Frost
+        </li>
+        <!--<li>
+          <strong>Date:</strong>
+          March 2013
+        </li>-->
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Project manager for the replatform and build of jewelry brand Lulu Frost's eCommerce website. In charge of managing development schedule, third party integrations, conducting eCommerce-platform training for client, helping to come up with solutions for client's eCommerce needs, and maintaining/updating/user-testing the site as well as maintaining an ongoing relationship with the client. 
+      </p>
+      <a class='button small' href='https://www.lulufrost.com' target="_blank">Visit website</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

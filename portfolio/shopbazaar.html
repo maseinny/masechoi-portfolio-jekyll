@@ -1,0 +1,60 @@
+---
+layout: default
+images:
+  - images/portfolio/sb.png
+  - images/portfolio/sb_cat.png
+  - images/portfolio/sb_product.png
+  - images/portfolio/sb_cart.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>ShopBAZAAR ecommerce platform</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          ShopBAZAAR
+        </li>
+        <!--<li>
+          <strong>Date:</strong>
+          June 2013
+        </li>-->
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Project manager for the site replatform, rebuild, and ongoing maintenance of Harper's Bazaar magazine's eCommerce arm, ShopBAZAAR. Site build included a custom-built vendor management platform. I was responsible for managing the development schedule, third party integrations, conducting training for client, helping to come up with solutions for client's eCommerce needs, testing the vendor management platform for usability issues, and maintaining/updating/user-testing the site as well as sustaining the partnership with the client. 
+      </p>
+      <a class='button small' href='https://shop.harpersbazaar.com' target="_blank">Visit website</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

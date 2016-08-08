@@ -1,0 +1,58 @@
+---
+layout: default
+images:
+  - images/portfolio/lad.jpg
+  - images/portfolio/lad-signage.jpg
+  - images/portfolio/lad-signage2.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>life/after/denim custom signage</h3>
+     <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          life/after/denim
+        </li>
+        <li>
+          <strong>Date:</strong>
+          July 2011
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Hand-made made-to-order life/after/denim signage from aluminum sheet lettering nailed to sanded and varnished custom-cut wooden planks. Signage was both sent to retailers that carried life/after/denim to hang in their stores as part of the merchandising of the brand, as well as used for in-house merchandising at ENK trade shows.
+      </p>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

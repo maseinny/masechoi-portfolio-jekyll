@@ -1,0 +1,60 @@
+---
+layout: default
+images:
+  - images/portfolio/story1.png
+  - images/portfolio/story2.png
+  - images/portfolio/story3.png
+  - images/portfolio/story4.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Story Page Development</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Pete (freelance)
+        </li>
+        <li>
+          <strong>Date:</strong>
+          February 2015
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        Development of a story webpage for a client. Client had a clear idea of what he wanted the page(s) to look like and how it should function. Site was built with HTML, CSS, and minimal, pure JavaScript from specs and assets delivered by client. The webstory has some parallax elements where certain images stay in place while other elements scroll over the image as user scrolls down the page. Users also have the ability to control photo changes with scrolling, resulting in something like a gif that the user controls the speed of.
+      </p>
+      <a class='button small' href='http://masechoi.com/onebigparallaxdream/' target="_blank">Demo</a>
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

@@ -1,0 +1,58 @@
+---
+layout: default
+images:
+  - images/portfolio/pg-ad_Page_1.jpg
+  - images/portfolio/pg-ad_Page_2.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Pagegrove flyer for Biomedical Conference</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          Pagegrove
+        </li>
+        <li>
+          <strong>Date:</strong>
+          May 2012
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <p>
+        The ad was a full page, double-sided flyer and advertisement for PageGrove, a software development company, to be dispersed at the Southern California Biomedical Conference 2012.
+      </p>
+      <!---<a class='button small' href='https://shop.harpersbazaar.com' target="_blank">Visit website</a>-->
+      <div class='spacing'></div>
+      <ul class="info">
+        <li>
+          <div class='spacing'></div>
+          <a href='javascript:void(0)' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+
