@@ -11,19 +11,8 @@ images:
 
 <div class='full'>
   <div class='row'>
-    <div class='large-8 columns'>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          {% for image in page.images %}
-            <div class="slide">
-              <img src="{{site.url}}/{{image}}" alt="">
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    <div class='large-4 columns'>
-      <ul class="info">
+    <div class='large-4 columns mobile'>
+      <ul class="info" style="text-align: center;">
         <li>
           <a href='javascript:void(0)' class='port-nav' title='previous'>
             <i class='icon-left-open'></i>
@@ -54,7 +43,55 @@ images:
           <strong>Date:</strong>
           December 2012
         </li>
+        </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class="desktop">
+        <ul class="info">
+        <li>
+          <a href='javascript:void(0)' class='port-nav' title='previous'>
+            <i class='icon-left-open'></i>
+            <div class="tooltip">
+              previous portolio item
+            </div>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' class='port-nav' title='next'>
+            <i class='icon-right-open'></i>
+            <div class="tooltip">
+              next portolio item
+            </div>
+          </a>
+        </li>
       </ul>
+      <div class='two spacing'></div>
+      
+      <h3>When You Wish crowdfunding sponsor process</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          When You Wish
+        </li>
+        <li>
+          <strong>Date:</strong>
+          December 2012
+        </li>
+        </ul>
+      </div>
       <div class='spacing'></div>
       <p>
         Designed the sign in and registration pages for crowdfunding site, When You Wish. It was important for us to regularly evaluate the sign in page and registration process to ensure it was easy and intuitive for users since an unstreamlined or badly designed sign up process can be a big hindrance to new user acquisition.

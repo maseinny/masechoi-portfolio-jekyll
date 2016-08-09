@@ -78,7 +78,9 @@ hr {
 .parallax {
   background-attachment: fixed;
 }
-
+.mobile {
+  display: none;
+}
 .dark {
 	background-color: #000000;
 	padding-bottom: 40px;
@@ -140,6 +142,9 @@ ul.shortcode-list i {
   border: 3px solid #000000;
   background-color: rgba(249, 206, 6, 0);
 }
+.big-social h4 {
+    color: #ffffff;
+  }
 
 /*smart appear */
 .fadein {
@@ -812,10 +817,10 @@ body.screenshot {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 1;
-  color: #baeda8;
+  color: #000000;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -829,10 +834,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "‹";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "›";
 }
 
 .slick-next {
@@ -843,10 +848,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "›";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "‹";
 }
 
 /* Dots */
@@ -2754,6 +2759,25 @@ body {
     color: #ffffff;
 }
 }
+@media only screen and (max-width: 960px) {
+  .slick-next {
+    right: 0;
+  }
+  .slick-prev {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .full {
+    padding: 30px 0 0;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.85714rem;
@@ -2775,9 +2799,11 @@ body {
   .modFullscreenSlider .fullscreen_slideshow h1 {
     font-size: 3.5rem;
     line-height: 3.5rem;
+    color: #000000;
   }
   .modFullscreenSlider .fullscreen_slideshow p {
     font-size: 18px;
+    color: #000000;
   }
 
   .modBoxedSlider .caption {
@@ -2833,7 +2859,11 @@ body {
     font-size: 14px;
   }
   .modFullscreenSlider .fullscreen_slideshow .buttons-wrapper {
-    top: 10%;
+    top: 15%;
+  }
+  .modFullscreenSlider .fullscreen_slideshow .buttons-wrapper a.button {
+    display: block;
+    margin: 0 auto 15px;
   }
   .modFullscreenSlider .fullscreen_slideshow .buttons-wrapper a.button {
     width: 45%;
@@ -2849,5 +2879,8 @@ body {
   }
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
+  }
+  .big-social h4 {
+    color: #000000;
   }
 }

@@ -131,7 +131,7 @@ works:
     desc: Development of an interactive story page
   - image: ../images/portfolio/SES-front.jpg
     title: Solar Electric Scooter
-    link_to: ../portfolio/story.html
+    link_to: ../portfolio/solar-electric-scooter.html
     class: design secondary
     desc: Postcard flyer design
   - image: ../images/work/wuw.jpg

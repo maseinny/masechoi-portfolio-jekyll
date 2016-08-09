@@ -62,6 +62,7 @@ jQuery(document).foundation();
 
     $('.more-works').click(function() {
       $('.secondary').show();
+      $(this).hide();
     });
 
     $('video').each(function() {

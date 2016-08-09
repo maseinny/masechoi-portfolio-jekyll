@@ -1,31 +1,20 @@
 ---
 layout: default
 images:
-  - images/portfolio/wuw_sponsor.jpg
-  - images/portfolio/wuw_sponsorchosen.jpg
-  - images/portfolio/wuw_pay1.jpg
-  - images/portfolio/wuw_pay2.jpg
-  - images/portfolio/wuw_pay3.jpg
-  - images/portfolio/wuw_pay4.jpg
-  - images/portfolio/wuw_pay5.jpg
-  - images/portfolio/wuw_pay6.jpg
+- images/portfolio/wuw_sponsor.jpg
+- images/portfolio/wuw_sponsorchosen.jpg
+- images/portfolio/wuw_pay1.jpg
+- images/portfolio/wuw_pay2.jpg
+- images/portfolio/wuw_pay3.jpg
+- images/portfolio/wuw_pay4.jpg
+- images/portfolio/wuw_pay5.jpg
+- images/portfolio/wuw_pay6.jpg
 ---
 
 <div class='full'>
   <div class='row'>
-    <div class='large-8 columns'>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          {% for image in page.images %}
-            <div class="slide">
-              <img src="{{site.url}}/{{image}}" alt="">
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    <div class='large-4 columns'>
-      <ul class="info">
+    <div class='large-4 columns mobile'>
+      <ul class="info" style="text-align: center;">
         <li>
           <a href='javascript:void(0)' class='port-nav' title='previous'>
             <i class='icon-left-open'></i>
@@ -47,16 +36,64 @@ images:
       <div class='two spacing'></div>
       
       <h3>When You Wish crowdfunding sponsor process</h3>
-      <ul class='info'>
-        <li>
-          <strong>Client:</strong>
-          When You Wish
-        </li>
-        <li>
-          <strong>Date:</strong>
-          December 2012
-        </li>
-      </ul>
+        <ul class='info'>
+          <li>
+            <strong>Client:</strong>
+            When You Wish
+          </li>
+          <li>
+            <strong>Date:</strong>
+            December 2012
+          </li>
+        </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+          <div class="slide">
+            <img src="{{site.url}}/{{image}}" alt="">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class="desktop">
+        <ul class="info">
+          <li>
+            <a href='javascript:void(0)' class='port-nav' title='previous'>
+              <i class='icon-left-open'></i>
+              <div class="tooltip">
+                previous portolio item
+              </div>
+            </a>
+            <a href='/index.html#work' title='back to work list'>
+              <i class='icon-layout'></i>
+            </a>
+            <a href='javascript:void(0)' class='port-nav' title='next'>
+              <i class='icon-right-open'></i>
+              <div class="tooltip">
+                next portolio item
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class='two spacing'></div>
+        
+        <h3>When You Wish crowdfunding sponsor process</h3>
+        <ul class='info'>
+          <li>
+            <strong>Client:</strong>
+            When You Wish
+          </li>
+          <li>
+            <strong>Date:</strong>
+            December 2012
+          </li>
+        </ul>
+      </div>
       <div class='spacing'></div>
       <p>
         Redesigned and streamlined the sponsor pages, the checkout and payment screens, and the pageflow by which users would contribute to crowdfunding projects on WhenYouWish.com.
