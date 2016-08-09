@@ -2759,7 +2759,7 @@ body {
     color: #ffffff;
 }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1145px) {
   .slick-next {
     right: 0;
   }
