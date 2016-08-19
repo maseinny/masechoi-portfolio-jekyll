@@ -1,0 +1,103 @@
+---
+layout: default
+images:
+  - images/portfolio/cfl-home.png
+  - images/portfolio/cfl-contact.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-4 columns mobile'>
+      <ul class="info" style="text-align: center;">
+        <li>
+          <a href='javascript:void(0)' class='port-nav' title='previous'>
+            <i class='icon-left-open'></i>
+            <div class="tooltip">
+              previous portolio item
+            </div>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' class='port-nav' title='next'>
+            <i class='icon-right-open'></i>
+            <div class="tooltip">
+              next portolio item
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class='two spacing'></div>
+      
+      <h3>CFL NY Website Build</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          CFL NY Ltd.
+        </li>
+        <li>
+          <strong>Date:</strong>
+          May 2016
+        </li>
+        </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class="desktop">
+        <ul class="info">
+        <li>
+          <a href='javascript:void(0)' class='port-nav' title='previous'>
+            <i class='icon-left-open'></i>
+            <div class="tooltip">
+              previous portolio item
+            </div>
+          </a>
+          <a href='/index.html#work' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='javascript:void(0)' class='port-nav' title='next'>
+            <i class='icon-right-open'></i>
+            <div class="tooltip">
+              next portolio item
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class='two spacing'></div>
+      
+      <h3>CFL NY Website Build</h3>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          CFL NY Ltd.
+        </li>
+        <li>
+          <strong>Date:</strong>
+          May 2016
+        </li>
+        </ul>
+      </div>
+      <div class='spacing'></div>
+      <p>
+        Freelance project to develop, design, and manage hosting for a clothing manufacturing company's website. Site was to be simple and no designs were provided, only photos of the CFL office. This is to replace CFL NY's current website which was done in Flash an extremely long time ago. Launching soon.
+      </p>
+      <!---<a class='button small' href='https://shop.harpersbazaar.com' target="_blank">Visit website</a>-->
+      <div class='spacing'></div>
+      
+    </div>
+
+  </div>
+  <div class='four spacing'></div>
+</div>
+

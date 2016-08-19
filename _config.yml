@@ -49,6 +49,11 @@ works:
     link_to: ../portfolio/lad-sign.html
     class: other
     desc: Custom signage
+  - image: ../images/work/tn-cfl.jpg
+    title: CFL NY 
+    link_to: ../portfolio/cfl.html
+    class: dev
+    desc: Website Build
   - image: ../images/work/yigal.jpg
     title: Yigal Azrouel
     link_to: ../portfolio/yigal-azrouel.html
@@ -57,11 +62,6 @@ works:
   - image: ../images/work/tn-lulufrost.jpg
     title: Lulu Frost
     link_to: ../portfolio/lulu-frost.html
-    class: pm
-    desc: Project management
-  - image: ../images/work/tn-owlsbrew.jpg
-    title: Owl's Brew
-    link_to: ../portfolio/owls-brew.html
     class: pm
     desc: Project management
   - image: ../images/work/tn-ondeck.jpg
@@ -94,6 +94,11 @@ works:
     link_to: ../portfolio/wuw-login.html
     class: ux-design secondary
     desc: Sign in flow
+  - image: ../images/work/tn-owlsbrew.jpg
+    title: Owl's Brew
+    link_to: ../portfolio/owls-brew.html
+    class: pm secondary
+    desc: Project management
   - image: ../images/work/tn-janegoodall.jpg
     title: Jane Goodall Chimp Call App
     link_to: ../portfolio/jane-goodall.html
