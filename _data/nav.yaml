@@ -4,9 +4,6 @@
 - name: Work
   path: "#work"
   section_id: work
-- name: Services
-  path: "#services"
-  section_id: services
 - name: Contact
   path: "#contact"
   section_id: contact
