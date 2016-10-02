@@ -280,7 +280,7 @@ jQuery(document).foundation();
       var $ctx = this.$ctx;
 
       $('.slides', $ctx).slick({
-        autoplay: true,
+        autoplay: false,
         pauseOnHover: false,
         dots: true,
         speed: 1500,
